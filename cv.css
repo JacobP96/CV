@@ -4,6 +4,7 @@
     margin: 0px;
     
   }
+  /* inställningar för min bild på hemsidan*/
   img {
       width: 200px;
       height:200px;
@@ -15,6 +16,8 @@
     background-color:#4F008C;
     padding: 10px;
     text-align: center;
+    height: 600px;
+    width: 600px;
     
   }
   
@@ -48,7 +51,7 @@ font-family: sans-serif, Arial,Courier;
       
 
   }
-
+/* För att få bort punterna vid var ny kolumn*/
   ul{
     list-style-type: none;
 
@@ -78,10 +81,21 @@ font-family: sans-serif, Arial,Courier;
     font-family: sans-serif, Arial,Courier;
     
   }
-
+/* inställningar för att ända footern längst ner på sidan*/
  footer{
     overflow: hidden;
     background-color:black;
     color:white;
+    height: 600px;
+    width: 600px;
  }
+ @media only screen and (max-width:40){
+   ul li{
+     width:600px
+     
+   }
+ }
+
+ 
+
   
