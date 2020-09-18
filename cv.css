@@ -9,9 +9,13 @@
     
 /* header styr plats på bild och text i headern också*/
   .header {
+    float:center;
+      padding: 10px;
+      width: 33,33%;
+      height: 300px;
+      background-color:green;
     background-color:#4F008C;
-    padding: 10px;
-    text-align: center;
+
     
     
   }
