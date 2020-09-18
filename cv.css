@@ -8,7 +8,6 @@
   img {
       width: 200px;
       height:200px;
-      float:center;
 
   }
     
@@ -17,8 +16,7 @@
     background-color:#4F008C;
     padding: 10px;
     text-align: center;
-    height: 300px;
-    width: 1800px;
+    
     
   }
   
@@ -87,8 +85,7 @@ font-family: sans-serif, Arial,Courier;
     overflow: hidden;
     background-color:black;
     color:white;
-    height: 20px;
-    width: 1800px;
+   
     
  }
  @media only screen and (max-width:40){
