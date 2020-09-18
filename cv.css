@@ -8,6 +8,7 @@
   img {
       width: 200px;
       height:200px;
+      float:center;
 
   }
     
@@ -16,8 +17,8 @@
     background-color:#4F008C;
     padding: 10px;
     text-align: center;
-    height: 600px;
-    width: 600px;
+    height: 300px;
+    width: 1800px;
     
   }
   
@@ -42,7 +43,7 @@ font-family: sans-serif, Arial,Courier;
   
   /* inställningar för column i Html */
   .column {
-      height: 600px;
+      height: 300px;
       width: 600px;
       background-color:green;
       font-family: sans-serif, Arial,Courier;
@@ -66,7 +67,7 @@ font-family: sans-serif, Arial,Courier;
   /* Inställningar för column2*/
   .column2 {
     
-    height: 600px;
+    height: 300px;
     width: 600px;
     background-color:#4F008C;
     font-family: sans-serif, Arial,Courier;
@@ -75,7 +76,7 @@ font-family: sans-serif, Arial,Courier;
   /*inställningar för column3*/
   .column3{
    
-    height: 600px;
+    height: 300px;
     width: 600px;
     background-color:green;
     font-family: sans-serif, Arial,Courier;
@@ -86,12 +87,13 @@ font-family: sans-serif, Arial,Courier;
     overflow: hidden;
     background-color:black;
     color:white;
-    height: 600px;
-    width: 600px;
+    height: 20px;
+    width: 1800px;
+    
  }
  @media only screen and (max-width:40){
    ul li{
-     width:600px
+     
      
    }
  }
