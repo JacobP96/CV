@@ -2,18 +2,19 @@
  
   /* inställningar för min bild på hemsidan*/
   img {
-      width: 200px;
-      height:200px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 250px;
+  height: 250px;
 
   }
     
 /* header styr plats på bild och text i headern också*/
   .header {
-    float:center;
       padding: 10px;
-      width: 33,33%;
+      width: 33,50%;
       height: 300px;
-      background-color:green;
     background-color:#4F008C;
 
     
@@ -74,7 +75,7 @@ font-family: sans-serif, Arial,Courier;
    
     
  }
- @media screen and (max-width: 600px) {
+ @media screen and (max-width: 450px) {
   .column {
     width: 100%;
   }
