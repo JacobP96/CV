@@ -1,9 +1,5 @@
 
-  
-  body {
-    margin: 0px;
-    
-  }
+ 
   /* inställningar för min bild på hemsidan*/
   img {
       width: 200px;
@@ -27,9 +23,11 @@
     color:black;
     }
     /*struktur för alla columner*/
-  #info{
-      display:flex;
-      flex-direction: row;
+  .info{
+    
+    display: flex;
+    flex-direction: column;
+    clear:both;
       
   }
      /* inställningar för alla överskrifter till de olika kolumnerna*/ 
@@ -41,8 +39,10 @@ font-family: sans-serif, Arial,Courier;
   
   /* inställningar för column i Html */
   .column {
+    float:left;
+      padding: 10px;
+      width: 33,33%;
       height: 300px;
-      width: 600px;
       background-color:green;
       font-family: sans-serif, Arial,Courier;
 
@@ -61,25 +61,7 @@ font-family: sans-serif, Arial,Courier;
 
   }
   
-  
-  /* Inställningar för column2*/
-  .column2 {
-    
-    height: 300px;
-    width: 600px;
-    background-color:#4F008C;
-    font-family: sans-serif, Arial,Courier;
-    
-  }
-  /*inställningar för column3*/
-  .column3{
-   
-    height: 300px;
-    width: 600px;
-    background-color:green;
-    font-family: sans-serif, Arial,Courier;
-    
-  }
+
 /* inställningar för att ända footern längst ner på sidan*/
  footer{
     overflow: hidden;
@@ -88,8 +70,9 @@ font-family: sans-serif, Arial,Courier;
    
     
  }
- 
+ @media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
 
- 
-
-  
+}
