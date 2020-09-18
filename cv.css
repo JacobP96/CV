@@ -1,0 +1,87 @@
+
+  
+  body {
+    margin: 0px;
+    
+  }
+  img {
+      width: 200px;
+      height:200px;
+
+  }
+    
+/* header styr plats på bild och text i headern också*/
+  .header {
+    background-color:#4F008C;
+    padding: 10px;
+    text-align: center;
+    
+  }
+  
+  /* inställningar för den svarta listen som går genom hemsidan */
+  .list {
+    overflow: hidden;
+    background-color:#E0C600;
+    color:black;
+    }
+    /*struktur för alla columner*/
+  #info{
+      display:flex;
+      flex-direction: row;
+      
+  }
+     /* inställningar för alla överskrifter till de olika kolumnerna*/ 
+h2{
+text-align: center;
+font-family: sans-serif, Arial,Courier;
+      }
+  
+  
+  /* inställningar för column i Html */
+  .column {
+      height: 600px;
+      width: 600px;
+      background-color:green;
+      font-family: sans-serif, Arial,Courier;
+
+      
+      
+
+  }
+
+  ul{
+    list-style-type: none;
+
+  }
+  /* Funktioner för länkarana på hemsidan*/
+  a:link {
+    text-decoration: none;
+
+  }
+  
+  
+  /* Inställningar för column2*/
+  .column2 {
+    
+    height: 600px;
+    width: 600px;
+    background-color:#4F008C;
+    font-family: sans-serif, Arial,Courier;
+    
+  }
+  /*inställningar för column3*/
+  .column3{
+   
+    height: 600px;
+    width: 600px;
+    background-color:green;
+    font-family: sans-serif, Arial,Courier;
+    
+  }
+
+ footer{
+    overflow: hidden;
+    background-color:black;
+    color:white;
+ }
+  
